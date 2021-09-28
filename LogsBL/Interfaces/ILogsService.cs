@@ -9,7 +9,7 @@ namespace LogsBL.Interfaces
     {
         Task<List<ResultData>> TakeFiltered(int amount, DateTime from, DateTime to);
         Task CreateBulk(IEnumerable<LogEntity> entity);
-        Task CreateBulkFromAsync(IAsyncEnumerable<LogEntity> entities);
+
 
     }
 }
